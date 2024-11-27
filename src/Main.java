@@ -24,14 +24,14 @@ public class Main {
         System.out.println(" ");
         System.out.println("Task 3");
         int people = 12_000_000;
-        int newPeople = 0;
-        int deathPeople = 0;
+        int nPeople = 0;
+        int dPeople = 0;
         int year = 0;
         while (year < 10) {
             year++;
-            newPeople = people / 1000 * 17;
-            deathPeople = people / 1000 * 8;
-            people = people + newPeople - deathPeople;
+            nPeople = people / 1000 * 17;
+            dPeople = people / 1000 * 8;
+            people = people + nPeople - dPeople;
         }
         System.out.println("Год " + year + ", численность населения составляет " + people);
         System.out.println(" ");
