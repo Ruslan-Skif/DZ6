@@ -24,8 +24,8 @@ public class Main {
         System.out.println(" ");
         System.out.println("Task 3");
         int people = 12_000_000;
-        int nPeople = 0;
-        int dPeople = 0;
+        int nPeople = 1;
+        int dPeople = 1;
         int year = 0;
         while (year < 10) {
             year++;
